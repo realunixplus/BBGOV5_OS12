@@ -58,9 +58,9 @@
 51. usbboot : boot from USB device
 
 # Virtual kernel memory layout
-modules : 0xffffff8000000000 - 0xffffff8008000000   (   128 MB)
-fixed   : 0xffffffbefe7fd000 - 0xffffffbefec00000   (  4108 KB)
-memory  : 0xffffffc000000000 - 0xffffffc080000000   (  2048 MB)
+1. modules : 0xffffff8000000000 - 0xffffff8008000000   (   128 MB)
+2. fixed   : 0xffffffbefe7fd000 - 0xffffffbefec00000   (  4108 KB)
+3. memory  : 0xffffffc000000000 - 0xffffffc080000000   (  2048 MB)
 
 
 
